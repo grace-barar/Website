@@ -1,0 +1,127 @@
+{
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-size: 15px;
+ line-height:100%;
+ /* font-family: arial, helvetica, sans-serif; */
+ font-family: helvetica;
+ background-image: url();
+ background-repeat: repeat;
+ background-position: 215px 0;
+ background-attachment: fixed;
+ color: #000000;
+ text-align:left;
+
+}
+
+body.section-1 { }
+body.section-2 { }
+body.section-3 { }
+
+a:link { text-decoration: none; color: #000000;}
+a:active {
+ color: #000;
+ /* background-color: #FCFAAC; */
+ background-color: #73ffe0;
+ font-weight: bolder;
+}
+a:visited { text-decoration: none; color: #000000; background-color: #DDDDDD;}
+a:hover {
+ color: #000;
+ font-weight: bolder;
+ /* background-color: #FCFAAC; */
+ background-color: #9bfbe5;
+}
+
+a img { border: medium none; }
+
+#menu {
+ width: 200px;
+ overflow: auto;
+ top: 1;
+ bottom: 0;
+ left: 0;
+ padding: 0px 10px 0px 10px;
+ /**height: auto;**/
+ height: 100%;
+ /*background-color: #DDDDDD;*/
+ font-size: 12px;
+ text-align:left;
+ line-height: 150%;
+ float: left;
+ left: 0;
+ margin: 0px 0px 0px;
+ top: 10px;
+ bottom: 30px;
+ position: sticky;
+}
+
+#menu ul {
+ list-style: none;
+ margin: 0 0 0px 0;
+ padding-inline-start: 0;
+ text-transform: uppercase;
+ line-height: 220%
+
+}
+
+#menu ul li.section-title {
+/* font-family:arial, helvetica, sans-serif; */
+font-family: helvetica;
+font-size: 14px;
+font-weight:bolder;
+text-transform: uppercase;
+padding-inline-start: 0;
+line-height: 220%
+}
+
+
+#menu ul li a:active {
+color: #000;
+font-weight:bolder;
+background-color: #73ffe0;
+padding-inline-start: 0;
+line-height: 220%;
+}
+
+#content {
+		 /**height: auto;**/
+ height: 100%;
+ width: 700px;
+ /* width: 100%auto; */
+ padding: 0px 10px 0px 10px;
+ margin: 25px 0px 0px 220px;
+ top: 0;
+}
+
+.container {
+	 padding: 5px 5px 25px 5px;
+}
+
+#content p { width: 650px; margin-bottom: 9px; }
+/* #content p { width: 100%auto; margin-bottom: 9px; } */
+
+p {
+	 margin: 0 0 9px 0;
+}
+
+h1 {
+	 /* font-family: synthetique ot; */
+	 font-family: helvetica;
+	 line-height: 25px;
+	 font-size: 32px;
+	 font-weight: lighter;
+}
+
+h2 { font-size: 24px; line-height: 100%}
+h3 { font-size: 16px; }
+h4 { font-size: 12px; }
+
+#img-container	{ margin: 0; padding: 0; }
+#img-container p	{ width: 650px; margin: 0; padding: 0 0 12px 0; }
+/* #img-container p	{ width: 100%auto; margin: 0; padding: 0 0 12px 20%; } */
+
+#once { clear: left; }
