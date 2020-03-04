@@ -122,11 +122,16 @@ line-height: 220%;
 
 }
 
-text {
-	 margin: 0 0 0px 0;
-   width: 600px;
+p{
+
+   max-width: 600px;
 }
 
+.paragraph {
+  max-width: 600px;
+  justify-content: left;
+  line-height: 150%;
+}
 h1 {
 	 /* font-family: synthetique ot; */
 	 font-family: helvetica;
