@@ -39,13 +39,10 @@ a:hover {
 a img { border: medium none; }
 
 .topbar {
-  width: 960px;
-  padding: 30px 10px 30px 0px;
-  margin: 0px 0px 0px;
-  top: 10px;
-  bottom: 30px;
-  position: sticky;
-  left: 55px;
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  align-items: left
 
 }
 
@@ -55,7 +52,7 @@ a img { border: medium none; }
  top: 1;
  bottom: 0;
  left: 0;
- padding: 0px 10px 0px 10px;
+ padding: 0px 0px 0px 10px;
  /**height: auto;**/
  height: 100%;
  /*background-color: #DDDDDD;*/
@@ -105,7 +102,7 @@ line-height: 220%;
 		 /**height: auto;**/
   margin-left: 270px;
   margin-right: 0px;
-  padding: 40px 40px;
+  padding: 10px 40px;
   height: 100%;
   width: 1100px;
  /* width: 100%auto; */
@@ -191,6 +188,8 @@ h5 {font-size: 16px; font-weight: lighter; margin-block-end: 0em;}
   vertical-align: middle;
   width: 100%;
 }
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
